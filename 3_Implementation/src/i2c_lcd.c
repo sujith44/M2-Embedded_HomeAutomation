@@ -1,8 +1,7 @@
 /*
  * i2c_lcd.c
  *
- *  Created on: Nov 17, 2017
- *      Author: abel
+ * 
  */
 
 #include "i2c_lcd.h"
