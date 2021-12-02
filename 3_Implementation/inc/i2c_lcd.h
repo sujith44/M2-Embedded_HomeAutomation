@@ -1,11 +1,3 @@
-/*
- * i2c_lcd.h
-
-
- *
- * 
- */
-
 #include <avr/io.h>
 #include "i2c.h"
 
