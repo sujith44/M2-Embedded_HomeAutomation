@@ -1,9 +1,3 @@
-/*
- * inputCapture_timer.h
- *
- *
- */
-
 #ifndef INPUTCAPTURE_TIMER_H_
 #define INPUTCAPTURE_TIMER_H_
 #include <util/delay.h>
@@ -41,3 +35,4 @@ void init_timer2();
 
 
 #endif /* INPUTCAPTURE_TIMER_H_ */
+
