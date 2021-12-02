@@ -58,3 +58,33 @@
 | LR02 |Timer2 of ATMEGA328p is used to generate a Trigger pulse of 20uS,  | Implemented |
 | LR03 |The prescaler of this unit was chosen, such that the resolution of pulse-width is 16uS. | Implemented |
 
+# Design
+
+## Behavioural Diagram
+
+#### High Level Design
+
+![High level diagram](https://user-images.githubusercontent.com/94236917/144372751-f5b7c6d5-9e4e-450f-bc31-17632a39f61e.jpeg)
+
+
+#### Low Level Design
+
+![behavioural1](https://user-images.githubusercontent.com/94236917/144372792-5596e93b-2780-4713-9623-54d3d04d1add.jpeg)
+
+
+
+## Structural Diagram
+
+![structural diagram](https://user-images.githubusercontent.com/94236917/144372873-b03d27c6-af17-4b38-8c9c-7fabfdcafa6e.jpeg)
+
+
+## Block Diagram
+
+![Block diagram](https://user-images.githubusercontent.com/94236917/144372895-b2b503ca-a104-4f5b-af3c-8a6551840b51.jpeg)
+
+
+
+## Simulation
+
+<img width="802" alt="distance_measure (1)" src="https://user-images.githubusercontent.com/94236917/144372924-5e5b9e1a-0081-4a19-9eae-ace1706b2c7e.png">
+
