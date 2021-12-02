@@ -8,9 +8,9 @@
 #define OFF             0
 #define DEBUG_LED(val)  {(val)?(PORTB |= (1<<PORTB0) ):(PORTB &= ~(1<<PORTB0));}
 
-typedef enumaccess_t{ write_bit,read_bit}access_mode;
+typedef enum access_t{ write_bit,read_bit}access_mode;
 
-typedef enumstatus_codes_t{
+typedef enum status_codes_t{
 	START           = 0x08,
 	REP_START       = 0x10,
 	MT_SLA_ACK      = 0x18,
@@ -21,8 +21,8 @@ typedef enumstatus_codes_t{
 	MR_SLA_DATA_ACK = 0x50,
 	MR_SLA_DATA_NACK= 0x58 }statuscode;
 
-typedef enumresult_t{FAIL, SUCCESS}result;
-typedef enumswitch_t{SET,RESET}swit;
+typedef enum result_t{FAIL, SUCCESS}result;
+typedef enum switch_t{SET,RESET}swit;
 
 result check_TWI_status(statuscode);
 void   debug_led(swit);
@@ -32,4 +32,3 @@ void send_address(U8, access_mode );
 void transmit_data(unsigned char);
 void set_i2c_clock(unsigned long);
 unsigned char receive_byte();
-
