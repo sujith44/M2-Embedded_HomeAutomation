@@ -1,9 +1,3 @@
-/*
- * i2c_lcd.c
- *
- * 
- */
-
 #include "i2c_lcd.h"
 
 #include <stdint.h>
@@ -259,3 +253,4 @@ uint8_t _LCD_Build_Byte() {
 
 	return ret;
 }
+
